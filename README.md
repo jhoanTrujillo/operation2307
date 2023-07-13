@@ -26,10 +26,6 @@ One or two paragraphs providing an overview of our project
 ## Goal
 The goal section provides a concise summary of the main objective or purpose of the project or software described in this README. It addresses the following aspects:
 
-- ➡️ Problem Statement
-- ➡️ Objective(s)
-- ➡️ Target Audience
-- ➡️ Benefits
 
 ## Wireframes, ideas and planning
 
