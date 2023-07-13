@@ -18,6 +18,6 @@ body {
     padding: 0;
 }
 
-.offcanvas {
-    z-index: 9999;
+.modal-backdrop.show {
+    z-index: 1;
 }
