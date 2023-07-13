@@ -61,3 +61,7 @@ In the tech section, we provide information about the technology stack, dependen
 
 ## Credits
 We would like to give credit to the following individuals, organizations, and resources that have contributed to the project or provided inspiration:
+
+- Colour palettes were taken from the trending section on the [Coolers](https://coolors.co/palette/000000-14213d-fca311-e5e5e5-ffffff) site
+
+- The Map was able to be generated using the Mapbox API: [Mapbox API](https://docs.mapbox.com/mapbox-gl-js/example/custom-marker-icons/)
