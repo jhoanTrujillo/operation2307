@@ -1,16 +1,20 @@
 :root {
     --bs-text-opacity: 0.2;
-    --black: 000000;
-    --dark-blue: 14213D;
-    --sunburst-yellow: FCA311;
-    --silver-grey: E5E5E5;
-    --white: FFFFFF;
+    --black: #001219;
+    --dark-blue: #14213D;
+    --sunburst-yellow: #FCA311;
+    --silver-grey: #E5E5E5;
+    --white: #f7f7f7;
 
 }
 
 body {
     margin: 0;
     padding: 0;
+}
+
+.light-font-color {
+    color: var(--white);
 }
 
 #navigation {

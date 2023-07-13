@@ -1,0 +1,24 @@
+/* Mobile First Media Query */
+@media screen and (max-width: 750px) {
+    #profile-card {
+        margin-top: 5em;
+    }
+
+    .card {
+        margin-bottom: 1.5em;
+    }
+
+    .social-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+        padding-left: 0;
+        padding-top: 2em;
+    }
+
+    .social-icons {
+        color: var(--dark-blue);
+        font-size: 2em;
+    }
+}
