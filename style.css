@@ -1,65 +1,23 @@
-* {
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 8vh;
-    background-color: #f2f2f2;
-    font-family: 'Poppins', sans-serif;
-}
-
-nav .navbar-collapse .navbar-nav {
-    display: flex;
-    justify-content: space-around;
-    width: 30%;
-}
-
-nav .navbar-collapse .navbar-nav .nav-item .nav-link {
-    text-decoration: none;
-    letter-spacing: 1px;
-    font-weight: bold;
-    font-size: 14px;
-}
-
-#userIcon i {
-    color: white;
-}
-
-#userIcon i:hover {
-    color: orange;
-}
-
-#weatherIcon i {
-    color: yellow;
-}
-
-#weatherIcon i:hover {
-    color: orange;
-}
-
-#eventsIcon i {
-    color: orange;
-}
-
-
-footer {
-    position: fixed;
-    height: 50px;
+#map {
+    position: absolute;
+    top: 0;
     bottom: 0;
     width: 100%;
 }
 
-footer p {
-    text-align: center;
-    font-size: 14px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    padding: 15px;
-    color: #fff;
-    background-color: #333;
+.marker {
+    display: block;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0;
+}
+
+.offcanvas {
+    z-index: 9999;
 }
